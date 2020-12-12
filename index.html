@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Whack A Mole</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Whack A Mole</h1>
+        <div class="row justify-content-center" id="row1">
+            <div class="col-md-4 col-sm-4">
+                <div class="col">
+                    <div class="hole"></div>
+                    <div class="image"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col">
+                <div class="col">
+                    <div class="hole"></div>
+                    <div class="image"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col">
+                <div class="col">
+                    <div class="hole"></div>
+                    <div class="image"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" style="margin-top: 5%;" id="row2">
+            <div class="col-md-4 col-sm-4 col">
+                <div class="col">
+                    <div class="hole"></div>
+                    <div class="image"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col">
+                <div class="col">
+                    <div class="hole"></div>
+                    <div class="image"></div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-4 col">
+                <div class="col">
+                    <div class="hole"></div>
+                    <div class="image"></div>
+                </div>
+            </div>
+        </div>
+       
+
+
+
+    </div>
+    <div class="conatiner" style="margin-top:10%; text-align: center;">
+    <button type="button" value="start" onclick="startgame()" >Start</button>
+    <div><p  id="hi_score"></p></div>
+   
+    <div id="scr_card">score:<span id="score">0</span></div>
+    <div>Time Left:<Span id="Time_left">10 secs</Span></div>
+    <div id="g_over">  Game Over</div>
+</div>
+    
+</body>
+<script type="text/javascript" src="main.js"></script>
+
+</html>
